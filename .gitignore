@@ -121,8 +121,10 @@ celerybeat.pid
 
 # Environments
 .env
+.chicken
 .venv
 env/
+chicken/
 venv/
 ENV/
 env.bak/
