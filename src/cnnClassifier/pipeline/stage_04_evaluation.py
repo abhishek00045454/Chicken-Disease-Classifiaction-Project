@@ -1,6 +1,6 @@
-from src.cnnClassifier.config.configuration  import ConfigurationManager
-from src.cnnClassifier.components.evalution import Evaluation
-from src.cnnClassifier import logger
+from cnnClassifier.config.configuration  import ConfigurationManager
+from cnnClassifier.components.evalution import Evaluation
+from cnnClassifier import logger
 
 
 

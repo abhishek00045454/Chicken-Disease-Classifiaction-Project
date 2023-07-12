@@ -1,7 +1,7 @@
-from src.cnnClassifier.config.configuration import ConfigurationManager
-from src.cnnClassifier.components.call_back_model import PrepareCallback
-from src.cnnClassifier.components.training_model import Training
-from src.cnnClassifier import logger
+from cnnClassifier.config.configuration import ConfigurationManager
+from cnnClassifier.components.prepare_callbacks import PrepareCallback
+from cnnClassifier.components.training_model import Training
+from cnnClassifier import logger
 
 
 

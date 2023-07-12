@@ -1,7 +1,9 @@
 import tensorflow as tf
 from pathlib import Path
-from src.cnnClassifier.entity.config_entity import EvaluationConfig
-from src.cnnClassifier.utils.common import save_json
+from cnnClassifier.entity.config_entity import EvaluationConfig
+from cnnClassifier.utils.common import save_json
+
+
 
 class Evaluation:
     def __init__(self, config: EvaluationConfig):
@@ -47,3 +49,7 @@ class Evaluation:
     def save_score(self):
         scores = {"loss": self.score[0], "accuracy": self.score[1]}
         save_json(path=Path("scores.json"), data=scores)
+
+    
+
+    
